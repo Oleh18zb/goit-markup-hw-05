@@ -1,0 +1,174 @@
+ul, ol {
+    list-style-type: none;
+}
+.nav-link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+}
+.span {
+    color: #2196F3;
+}
+
+.nav-list-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.02em;
+        color: #212121;
+        line-height: calc(32 / 16);
+}
+.nav-list-link:hover, .nav-list-link:focus, .nav-list-link:active {
+    color: #2196F3;
+}
+.list {
+    cursor: pointer;
+}
+/* .list {
+    list-style: none;
+    cursor: pointer;
+}
+/* .list:hover, .list:focus, .list:active {
+    color: #2196f3; } */
+
+.nav-list-link {
+    text-decoration: none;
+    font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.02em;
+        color: #212121;
+            line-height: calc(16 / 14);
+}
+.nav-list-link:hover, .nav-list-link:focus, .nav-list-link:active {
+    color: #2196f3;
+} */
+.contacts-list {
+    cursor: pointer;
+    
+}
+.contact-link {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.02em;
+        color: #757575;
+        line-height: calc(16 / 14);
+}
+.contact-link:hover, .contact-link:focus {
+    color: #2196f3;
+}
+.hero {
+    background-color: #2f303a;
+    text-align: center;
+}
+.title {
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36364;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        line-height: calc(60 / 44);
+}
+.button {
+    background-color: #2196f3;
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.875;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #fff;
+        line-height: calc(30 / 16);
+}
+.button:hover, .button:active {
+    background-color: #188CE8;
+}
+.features-list {
+    list-style: none;
+}
+.features-title {
+    font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+        line-height: calc(16 / 14);
+}
+.features-text {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71429;
+        letter-spacing: 0.03em;
+        color: #757575;
+        line-height: calc(24 / 14);
+}
+.about-title {
+    font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;
+        line-height: calc(42 / 36);
+}
+.about-list {
+    list-style: none;
+}
+.about-img {
+}
+.team {
+    background-color: #F5F4FA;
+}
+.team-title {
+    font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;
+        line-height: calc(42 / 36);
+}
+.team-list {
+    list-style: none;
+}
+.team-item {
+    background-color: #FFFFFF;
+}
+.team-name {
+    font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;
+        line-height: calc(19 / 16);
+}
+.team-text {
+    font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #757575;
+        line-height: calc(19 / 16);
+}
+.footer {
+    background-color: #2f303a;
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+        font-size: 26px;
+        letter-spacing: 0.03em;
+    color: #fff;
+}
+.footer-text {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71429;
+        letter-spacing: 0.03em;
+        color: #fff;
+        line-height: calc(24 / 14);
+}
