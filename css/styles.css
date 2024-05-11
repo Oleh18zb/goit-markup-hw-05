@@ -2,6 +2,7 @@ ul, ol {
     list-style-type: none;
 }
 .nav-link {
+    font-family: "Raleway", sans-serif;
     color: #000000;
     text-decoration: none;
     font-weight: 700;
@@ -12,39 +13,26 @@ ul, ol {
 .span {
     color: #2196F3;
 }
-
-.nav-list-link {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-        font-size: 14px;
-        letter-spacing: 0.02em;
-        color: #212121;
-        line-height: calc(32 / 16);
-}
-.nav-list-link:hover, .nav-list-link:focus, .nav-list-link:active {
-    color: #2196F3;
-}
 .list {
     cursor: pointer;
 }
-/* .list {
-    list-style: none;
-    cursor: pointer;
+.current {
+    color: #2196F3;
 }
-/* .list:hover, .list:focus, .list:active {
-    color: #2196f3; } */
-
-.nav-list-link {
-    text-decoration: none;
+.push {
+    color: #2196F3;
+}
+.list-item {
+font-family: "Roboto", sans-serif;
     font-weight: 500;
-        font-size: 14px;
-        letter-spacing: 0.02em;
-        color: #212121;
-            line-height: calc(16 / 14);
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    line-height: calc(16 / 14);
 }
-.nav-list-link:hover, .nav-list-link:focus, .nav-list-link:active {
-    color: #2196f3;
-} */
+.list-item:hover, .list-item:focus, .list-item:active {
+    color: #2196F3;
+}
 .contacts-list {
     cursor: pointer;
     
