@@ -1,10 +1,17 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #FFFFFF;
+    color: #000000;
+}
 ul, ol {
     list-style-type: none;
 }
+a {
+    text-decoration: none;
+}
 .nav-link {
     font-family: "Raleway", sans-serif;
-    color: #000000;
-    text-decoration: none;
+    color: #000;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
@@ -23,23 +30,22 @@ ul, ol {
     color: #2196F3;
 }
 .list-item {
-font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    color: #212121;
     line-height: calc(16 / 14);
 }
 .list-item:hover, .list-item:focus, .list-item:active {
     color: #2196F3;
 }
+/* .list-link:hover, .list-link:focus, .list-link:active {
+    color: #2196F3;
+} */
 .contacts-list {
     cursor: pointer;
     
 }
 .contact-link {
-    list-style: none;
-    text-decoration: none;
     font-weight: 500;
         font-size: 14px;
         letter-spacing: 0.02em;
@@ -49,6 +55,7 @@ font-family: "Roboto", sans-serif;
 .contact-link:hover, .contact-link:focus {
     color: #2196f3;
 }
+/* HERO */
 .hero {
     background-color: #2f303a;
     text-align: center;
@@ -76,6 +83,7 @@ font-family: "Roboto", sans-serif;
 .button:hover, .button:active {
     background-color: #188CE8;
 }
+/* OPTIONS */
 .features-list {
     list-style: none;
 }
@@ -95,6 +103,7 @@ font-family: "Roboto", sans-serif;
         color: #757575;
         line-height: calc(24 / 14);
 }
+/* ABOUT */
 .about-title {
     font-weight: 700;
         font-size: 36px;
@@ -108,6 +117,7 @@ font-family: "Roboto", sans-serif;
 }
 .about-img {
 }
+/* TEAM */
 .team {
     background-color: #F5F4FA;
 }
@@ -141,6 +151,7 @@ font-family: "Roboto", sans-serif;
         color: #757575;
         line-height: calc(19 / 16);
 }
+/* FOOTER */
 .footer {
     background-color: #2f303a;
 }
@@ -159,4 +170,19 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.03em;
         color: #fff;
         line-height: calc(24 / 14);
+}
+/* PORTFOLIO */
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.portfolio-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.875;
+        letter-spacing: 0.03em;
+        color: #757575;
 }
