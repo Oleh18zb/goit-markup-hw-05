@@ -1,14 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
 body {
     font-family: Roboto, sans-serif;
     background-color: #FFFFFF;
     color: #000000;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 ul, ol {
     list-style-type: none;
+    padding: 0;
+        margin: 0;
 }
+
 a {
     text-decoration: none;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .nav-link {
     font-family: "Raleway", sans-serif;
     color: #000;
@@ -162,6 +192,9 @@ a {
         font-size: 26px;
         letter-spacing: 0.03em;
     color: #fff;
+}
+address {
+    font-style: normal;
 }
 .footer-text {
     font-weight: 400;
