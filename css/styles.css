@@ -143,14 +143,17 @@ button {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto; */
         margin-bottom: 188px;
         padding: 16px 32px;
         border-radius: 4px;
         border: none;
 }
-.button:hover, .button:active {
+/* .button:hover, .button:active {
     background-color: #188CE8;
-}
+} */
 /* OPTIONS */
 
 .visually-hidden {
