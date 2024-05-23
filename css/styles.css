@@ -173,6 +173,10 @@ button {
     display: flex;
     gap: 24px;
 }
+
+.features-item {
+    width: calc((100% - 3 * 24px) / 4);
+}
 .features-title {
     font-weight: 700;
         font-size: 14px;
@@ -216,7 +220,7 @@ button {
         color: #2e2f42;
         line-height: 1.11;
         padding-top: 120px;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 .team-list {
     list-style: none;
@@ -226,6 +230,7 @@ button {
 }
 .team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-img {
@@ -252,7 +257,7 @@ button {
 /* FOOTER */
 .footer {
     background-color: #2f303a;
-    height: 312px;
+    /* height: 312px; */
 }
 
 .container-foooter {
@@ -278,8 +283,10 @@ address {
         letter-spacing: 0.03em;
         color: #fff;
         line-height: calc(24 / 14);
+        margin-top: 16px;
         padding-bottom: 100px;
-        padding-top: 16px;
+        /* padding-bottom: 100px;
+        padding-top: 16px; */
         width: 264px;
 }
 
@@ -291,12 +298,12 @@ address {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        padding-top: 120px;
-        padding-bottom: 72px;
+        margin-top: 120px;
+        margin-bottom: 72px;
 }
 .portfolio-list {
     display: flex;
-    gap: 24px;
+    gap: 48px 24px;
     flex-wrap: wrap;
     margin-bottom: 120px;
 }
@@ -309,9 +316,9 @@ address {
     border-bottom: 1px solid #e7e9fc;
         border-left: 1px solid #e7e9fc;
         border-right: 1px solid #e7e9fc;
-        width: 360px;
-        height: 420px;
-    /* border: 1px solid #e7e9fc; */
+        width: calc((100% - 2 * 24px) / 3);
+        /* width: 360px;
+        height: 420px; */
 }
 
 .portfolio-img {
@@ -323,8 +330,10 @@ address {
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    /* padding-top: 32px;
+    padding-bottom: 8px; */
 }
 .portfolio-text {
     font-weight: 400;
@@ -332,5 +341,6 @@ address {
         line-height: 1.875;
         letter-spacing: 0.03em;
         color: #757575;
-        padding-bottom: 32px;
+        margin-bottom: 32px;
+        /* padding-bottom: 32px; */
 }
