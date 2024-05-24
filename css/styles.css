@@ -85,12 +85,7 @@ button {
     display: flex;
     gap: 40px;
 }
-/* .current {
-    color: #2196F3;
-}
-.push {
-    color: #2196F3;
-} */
+
 .list-item {
     font-weight: 500;
     font-size: 14px;
@@ -100,9 +95,7 @@ button {
 .list-item:hover, .list-item:focus, .list-item:active {
     color: #2196F3;
 }
-/* .list-link:hover, .list-link:focus, .list-link:active {
-    color: #2196F3;
-} */
+
 .contacts-list {
     cursor: pointer;
     display: flex;
@@ -123,6 +116,7 @@ button {
     background-color: #2f303a;
     text-align: center;
     padding-top: 188px;
+    padding-bottom: 188px;
 }
 .title {
     font-weight: 700;
@@ -143,10 +137,6 @@ button {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
-        /* display: block;
-        margin-left: auto;
-        margin-right: auto; */
-        margin-bottom: 188px;
         padding: 16px 32px;
         border-radius: 4px;
         border: none;
@@ -155,6 +145,11 @@ button {
     background-color: #188CE8;
 } */
 /* OPTIONS */
+
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .visually-hidden {
     position: absolute;
@@ -171,8 +166,6 @@ button {
 
 .features-list {
     list-style: none;
-    padding-top: 120px;
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
 }
@@ -187,7 +180,7 @@ button {
         text-transform: uppercase;
         color: #212121;
         line-height: calc(16 / 14);
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 }
 .features-text {
     font-weight: 400;
@@ -212,8 +205,11 @@ button {
 .about-img {
 }
 /* TEAM */
+
 .team {
     background-color: #F5F4FA;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .team-title {
     font-weight: 700;
@@ -222,12 +218,10 @@ button {
         text-align: center;
         color: #2e2f42;
         line-height: 1.11;
-        padding-top: 120px;
         margin-bottom: 72px;
 }
 .team-list {
     list-style: none;
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
 }
@@ -237,7 +231,10 @@ button {
 }
 
 .team-img {
-    padding-bottom: 32px;
+}
+
+.container-team {
+    padding: 32px 16px;
 }
 .team-name {
     font-weight: 500;
@@ -246,7 +243,7 @@ button {
         text-align: center;
         color: #212121;
         line-height: calc(19 / 16);
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 }
 .team-text {
     font-weight: 400;
@@ -255,17 +252,14 @@ button {
         text-align: center;
         color: #757575;
         line-height: calc(19 / 16);
-        padding-bottom: 32px;
 }
 /* FOOTER */
 .footer {
     background-color: #2f303a;
-    /* height: 312px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.container-foooter {
-    padding-top: 100px;
-}
 .footer-logo {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
@@ -287,13 +281,15 @@ address {
         color: #fff;
         line-height: calc(24 / 14);
         margin-top: 16px;
-        padding-bottom: 100px;
-        /* padding-bottom: 100px;
-        padding-top: 16px; */
         width: 264px;
 }
 
 /* PORTFOLIO */
+
+#portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .portfolio-title-up {
     font-weight: 700;
         font-size: 36px;
@@ -301,18 +297,18 @@ address {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        margin-top: 120px;
         margin-bottom: 72px;
 }
 .portfolio-list {
     display: flex;
     gap: 48px 24px;
     flex-wrap: wrap;
-    margin-bottom: 120px;
 }
 
 .container-items {
     padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .portfolio-items {
@@ -320,8 +316,6 @@ address {
         border-left: 1px solid #e7e9fc;
         border-right: 1px solid #e7e9fc;
         width: calc((100% - 2 * 24px) / 3);
-        /* width: 360px;
-        height: 420px; */
 }
 
 .portfolio-img {
@@ -333,10 +327,7 @@ address {
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
-    margin-top: 32px;
     margin-bottom: 8px;
-    /* padding-top: 32px;
-    padding-bottom: 8px; */
 }
 .portfolio-text {
     font-weight: 400;
@@ -344,6 +335,4 @@ address {
         line-height: 1.875;
         letter-spacing: 0.03em;
         color: #757575;
-        margin-bottom: 32px;
-        /* padding-bottom: 32px; */
 }
