@@ -722,6 +722,10 @@ address {
 }
 
 .check-svg {
+    fill: transparent;
+}
+
+.checkbox-input:checked+.checkbox-text .check-svg {
     fill: #F4F4FD;
 }
 
@@ -751,4 +755,5 @@ address {
         text-decoration: underline;
         text-decoration-skip-ink: none;
         color: #4d5ae5;
+        padding-left: 5px;
 }

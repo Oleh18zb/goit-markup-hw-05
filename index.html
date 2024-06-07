@@ -383,23 +383,25 @@
             </div>
             <div class="sub-container">
                 <p class="sub-container-text">Subscribe</p>
-                <div class="sub-container-form">
-                    <label for="footer-email" aria-label="email"></label>
-                    <input
-                    type="email"
-                    id="footer-email"
-                    name="footer-email"
-                    class="footer-input"
-                    placeholder="E-mail">
-                    <button type="submit" class="footer-btn"><span class="sub-text-btn">Subscribe</span><svg class="footer-btn-svg" width="24px" height="20px">
-                        <use href="./images/icons.svg#icon-send"></use>
-                    </svg></button>
-                </div>
+                <form>
+                    <div class="sub-container-form">
+                        <label for="footer-email" aria-label="email"></label>
+                        <input
+                        type="email"
+                        id="footer-email"
+                        name="footer-email"
+                        class="footer-input"
+                        placeholder="E-mail">
+                        <button type="submit" class="footer-btn"><span class="sub-text-btn">Subscribe</span><svg class="footer-btn-svg" width="24px" height="20px">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg></button>
+                    </div>
+                </form>
             </div>
         </div>
         
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop ">
         <div class="modal">
             <button type="button" class="modal-close">
                 <svg class="button-svg" width="8px" height="8px">
@@ -457,7 +459,7 @@
                         <svg class="check-svg" width="10px" height="8px">
                         <use href="./images/icons.svg#icon-true"></use>
                     </svg>
-                    </span>I accept the terms and conditions of the<span class="span-span"> Privacy Policy</span></label>
+                    </span>I accept the terms and conditions of the <a class="span-span">Privacy Policy</a></label>
                 </div>
                 <button type="submit" class="modal-btn-send"><span class="btn-span">Send</span></button>
             </form>
