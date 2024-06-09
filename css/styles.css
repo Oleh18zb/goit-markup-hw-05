@@ -750,7 +750,7 @@ address {
     display: inline-flex;
 }
 
-.checkbox-input visually-hidden:checked .checkbox-span {
+.checkbox-input:checked .checkbox-text .checkbox-span {
     border: none;
     fill: #F4F4FD;
 }
